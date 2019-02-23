@@ -1,158 +1,326 @@
-*{
+* {
     box-sizing: border-box;
-}
-body{
     font-family: 'Muli', sans-serif;
 }
-.landing-page{
+
+body {}
+
+.landing-page {
     height: 100%;
     width: 100%;
     background-image: url(../images/landing-page.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+
 }
 
+/*COMMON CSS*/
+
+.bg1{
+    background-image: url(../images/service-shape-1.png);
+    background-size: auto 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bg6{
+       background-image: url(../images/service-shape-1.png);
+    background-size: auto 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bg2 {
+    background-image: url(../images/service-shape-2.png);
+    background-size: auto 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg3 {
+    background-image: url(../images/service-shape-3.png);
+    background-size: contain;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bg4{
+    background-image: url(../images/space-2.png);
+    background-size: contain;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat; 
+}
+.bg5{
+     background-image: url(../images/space-3.png);
+    background-size: contain;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
 /*header*/
 
-nav{
+nav {
     background-color: #003073;
     width: 100%;
     color: white;
     z-index: 10;
 }
-nav img{
+
+nav img {
     padding: 18px 0 18px 0;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     padding: 23px 20px 23px 20px;
 }
-.but{
+
+.but {
     text-align: center;
 }
-.but a{
+
+.but a {
     text-align: center;
-    background-color: #1ea9fe; 
+    background-color: #1ea9fe;
     padding: 15px 20px 15px 20px;
     transition: .4s;
 }
-.but a:hover{
-    background-color:white;
+
+.but a:hover {
+    background-color: white;
     text-decoration: none;
-    color:#1ea9fe;
+    color: #1ea9fe;
     transition: .4s ease;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     color: #1EA9FE;
     text-decoration: none;
 }
-nav a{
-    color:white;
+
+nav a {
+    color: white;
     text-decoration: none;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #1ea9fe;
     text-decoration: none;
 }
-.menu{
+
+.menu {
     font-size: 24px;
 }
 
-.menubar{
+.menubar {
     display: none;
 }
-.text-home{
+
+.text-home {
     padding-top: 70px;
-    color:white;
+    color: white;
 }
-.text-home img{
+
+.text-home img {
     width: 30px;
 }
-.text-home h1{
+
+.text-home h1 {
     font-weight: 700;
-    font-size: 47px; 
+    font-size: 47px;
     line-height: 1.5;
 }
-.button{
-    float:left;
+
+.button {
+    float: left;
     background-color: #22233c;
 }
-.button{
+
+.button {
     display: flex;
     align-items: center;
     padding: 10px 40px;
     border-radius: 5px;
-    cursor:pointer;
+    cursor: pointer;
     transition: .4s;
 }
-.button:hover{
+
+.button:hover {
     background-color: #1EA9FE;
     box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
     transition: .4s;
 }
-.image{
-background-image: url(../images/home-mobile.png);
-    background-size:contain;
+
+.image {
+    background-image: url(../images/home-mobile.png);
+    background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+}
+
+
+/*ABOUT*/
+
+.bg{
+    width: 100%;
+}
+
+.about h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.services i {
+    font-size: 24px;
+    padding: 24px;
+    color: white;
+}
+.services{
+    text-align: center;
+}
+.service1,.service2,.service3{
+    width: 100%;
+}
+.ser h3{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0 ;
+}
+.ser p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color:#56576e;
+}
+.pro{
+    padding: 120px 0;
+}
+.sells p{
+    padding: 30px;
+    color:white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.sells h3{
+    color:#56576e;
 }
 /*RESPONSIVE*/
 
 
 /*MOBILE*/
 @media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
-   .roundbut{
+    .roundbut {
         display: none;
     }
-    .pages{
+
+    .pages {
         display: none;
     }
-    .menubar{
+
+    .menubar {
         display: block;
     }
-    .image{
+
+    .image {
         display: none;
     }
-    .text-home h1{
+
+    .text-home h1 {
         font-size: 25px;
     }
-    .buttons{
+
+    .buttons {
         padding: 0;
     }
-    .button{
-    padding: 10px;
+
+    .button {
+
         margin-top: 10px;
     }
+    .ser h3{
+        font-size: 24px;
+    }
+    .ser p{
+        font-size: 14px;
+    }
+    .headabout h3{
+        font-size: 26px;
+    }
+    .imgmobnone{
+        display: none;
+    }
+    .pro{
+        padding: 0;
+    }
+    .sells p{
+        padding: 12px;
+    }
+    .sells h3{
+        font-size: 16px;
+    }
+    
 }
 
 /*TABLET*/
 @media only screen and (min-device-width : 480px) and (max-device-width : 1023px) {
 
-    nav ul li{
-         padding:15px;
+    nav ul li {
+        padding: 15px;
     }
-    .bn{
-        position:absolute;
-        top:30px;
-        right: 0;  
+
+    .bn {
+        position: absolute;
+        top: 30px;
+        right: 0;
     }
-    .text-home{
+
+    .text-home {
         padding-top: 150px;
     }
-    .text-home h1{
-        font-size:35px;
+
+    .text-home h1 {
+        font-size: 35px;
     }
-    .buttons{
+
+    .buttons {
         padding-top: 0;
     }
-    nav ul{
-        padding:20px 0;
+
+    nav ul {
+        padding: 20px 0;
     }
-    .button{
-        padding: 10px 35px;
+
+    .button {
+        padding: 10px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 10px;     
     }
- 
-   
+    .button img{
+     width: 20px;
+    }
+    .button h5{
+        font-size: 18px;
+    }
+    .ser h3{
+        font-size: 24px;
+    }
+    .ser p{
+        font-size: 14px;
+    }
+    .pro{
+    padding:30px 0;
+}
+    .sells p{
+        padding: 20px;
+        
+    }
+    .sells h3{
+        font-size: 22px;
+    }
+
 }
