@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Muli', sans-serif;
+}
+.landing-page{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/landing-page.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*header*/
+
+nav{
+    background-color: #003073;
+    width: 100%;
+    color: white;
+    z-index: 10;
+}
+nav img{
+    padding: 18px 0 18px 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 23px 20px 23px 20px;
+}
+.but{
+    text-align: center;
+}
+.but a{
+    text-align: center;
+    background-color: #1ea9fe; 
+    padding: 15px 20px 15px 20px;
+    transition: .4s;
+}
+.but a:hover{
+    background-color:white;
+    text-decoration: none;
+    color:#1ea9fe;
+    transition: .4s ease;
+}
+nav ul li:hover{
+    color: #1EA9FE;
+    text-decoration: none;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #1ea9fe;
+    text-decoration: none;
+}
+.menu{
+    font-size: 24px;
+}
+
+.menubar{
+    display: none;
+}
+.text-home{
+    padding-top: 70px;
+    color:white;
+}
+.text-home img{
+    width: 30px;
+}
+.text-home h1{
+    font-weight: 700;
+    font-size: 47px; 
+    line-height: 1.5;
+}
+.button{
+    float:left;
+    background-color: #22233c;
+}
+.button{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: .4s;
+}
+.button:hover{
+    background-color: #1EA9FE;
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
+    transition: .4s;
+}
+.image img{
+
+}
+.buttons{
+    padding: 65px 0 65px 0;
+}
+/*RESPONSIVE*/
+
+
+/*MOBILE*/
+@media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
+   .roundbut{
+        display: none;
+    }
+    .pages{
+        display: none;
+    }
+    .menubar{
+        display: block;
+    }
+    .image{
+        display: none;
+    }
+    .text-home h1{
+        font-size: 25px;
+    }
+    .buttons{
+        padding: 0;
+    }
+    .button{
+    padding: 10px;
+        margin-top: 10px;
+    }
+    .button2{
+        margin-left: 0!important;
+    }
+}
+
+/*TABLET*/
+@media only screen and (min-device-width : 480px) and (max-device-width : 1023px) {
+
+    nav ul li{
+         padding:15px;
+    }
+    .bn{
+        position:absolute;
+        top:30px;
+        right: 0;  
+    }
+    .text-home{
+        padding-top: 150px;
+    }
+    .text-home h1{
+        font-size:35px;
+    }
+    .buttons{
+        padding-top: 0;
+    }
+    nav ul{
+        padding:20px 0;
+    }
+    .button{
+        padding: 10px 35px;
+    }
+ 
+   
+}
