@@ -29,11 +29,18 @@
                         <img src="images/logo.png">
                     </div>
                     <div class="col-2 menubar">
-                        <div class="menu">
+                        <div class="menu" id="menubar" onclick="togg()">
                             <i class="fas fa-bars"></i>
+                        </div>
+                        
+                        <div class="menucross " id="cross" onclick="crossclick()">
+                           <i class="fas fa-times"></i>
+                            
                         </div>
 
                     </div>
+                    
+                    
                     <div class="col-md-12 col-lg-9 p-0 pages">
                         <ul class="m-0">
                             <li><a href="#">Home</a></li>
@@ -55,8 +62,23 @@
                     </div>
 
                 </div>
-            </div>
+                
+                    
+                </div>
         </nav>
+                <div class="mobile-menu position-fixed">
+                   <ul class="text-center">
+                       <li class="rounded-pill backk">Try for Free</li>
+                       <li>Home</li>
+                       <li>About</li>
+                       <li>Features</li>
+                       <li>Gallery</li>
+                       <li>Pricing</li>
+                       <li>Team</li>
+                       <li>Blog</li>
+                       <li>Contact</li>
+                   </ul>
+            </div>
         <div class="scroll-up text-white bg-dark t-0 r-0 position-fixed">
             <i class="zmdi zmdi-long-arrow-up"></i>
         </div>
