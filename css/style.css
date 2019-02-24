@@ -16,20 +16,22 @@ body {}
 
 /*COMMON CSS*/
 
-.bg1{
+.bg1 {
     background-image: url(../images/service-shape-1.png);
     background-size: auto 100%;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
-.bg6{
-       background-image: url(../images/service-shape-1.png);
+
+.bg6 {
+    background-image: url(../images/service-shape-1.png);
     background-size: auto 100%;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .bg2 {
     background-image: url(../images/service-shape-2.png);
     background-size: auto 100%;
@@ -45,15 +47,17 @@ body {}
     background-position: center center;
     background-repeat: no-repeat;
 }
-.bg4{
+
+.bg4 {
     background-image: url(../images/space-2.png);
     background-size: contain;
     width: 100%;
     background-position: center center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
-.bg5{
-     background-image: url(../images/space-3.png);
+
+.bg5 {
+    background-image: url(../images/space-3.png);
     background-size: contain;
     width: 100%;
     background-position: center center;
@@ -165,7 +169,7 @@ nav ul li a:hover {
 
 /*ABOUT*/
 
-.bg{
+.bg {
     width: 100%;
 }
 
@@ -179,35 +183,262 @@ nav ul li a:hover {
     padding: 24px;
     color: white;
 }
-.services{
+
+.services {
     text-align: center;
 }
-.service1,.service2,.service3{
+
+.service1,
+.service2,
+.service3 {
     width: 100%;
 }
-.ser h3{
+
+.ser h3 {
     font-size: 24px;
     font-weight: 700;
-    padding: 15px 0 ;
+    padding: 15px 0;
 }
-.ser p{
+
+.ser p {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
-    color:#56576e;
+    color: #56576e;
 }
-.pro{
+
+.pro {
     padding: 120px 0;
 }
-.sells p{
+
+.sells p {
     padding: 30px;
-    color:white;
+    color: white;
     font-size: 22px;
     font-weight: 700;
 }
-.sells h3{
-    color:#56576e;
+
+.sells h3 {
+    color: #56576e;
 }
+
+.lunaticlove h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.shad {
+    transition: .4s;
+    box-shadow: 0 0 30px -12px #c9c9c9;
+}
+
+.shadow h3 {
+    font-size: 24px;
+    color: #22233b;
+    font-weight: 700;
+}
+
+.shad:hover {
+    box-shadow: 0 0 30px -5px #c9c9c9;
+    transform: translateY(-5px);
+    transition: .4s;
+}
+
+
+.shadow p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #56576e;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    color: white;
+    font-size: 22px;
+}
+
+.box1 {
+    background-color: #2d5baf;
+}
+
+.box2 {
+    background-color: #23a8c0;
+}
+
+.box3 {
+    background-color: #8822bf;
+}
+
+.box4 {
+    background-color: #c02383;
+}
+
+.box5 {
+    background-color: #e09f25;
+}
+
+.box6 {
+    background-color: #22bf88;
+}
+
+.vidframe {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 0 30px -1px #c9c9c9;
+}
+
+.vidplay {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #1EA9FE;
+    text-align: center;
+    line-height: 100px;
+    font-size: 44px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+.vidplay:hover {
+    background-color: white;
+    color: #1EA9FE;
+    box-shadow: 0 0 50px -10px #6858db;
+    transition: .3s;
+
+}
+
+/*LUNATIC COOL*/
+
+.cool h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.feats {
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ft {
+    transform: translateY(-10%);
+}
+
+.feats h3 {
+    font-size: 22px;
+    color: #22233b;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.screen {
+    padding: 20px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #22233b;
+}
+
+.cart {
+    text-align: center;
+}
+
+.cic {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    float: left;
+}
+
+.cart img {
+    cursor: pointer;
+}
+
+#circ1 {
+    cursor: pointer;
+    background-color: #1ea9fe;
+}
+
+#circ2 {
+    margin-left: 8px;
+    cursor: pointer;
+    background-color: #dcdcdc;
+}
+
+.navcic {
+    margin: auto;
+    width: 38px;
+}
+
+/*LUNATIC PRICING*/
+.pricing h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #22233b;
+}
+
+.price h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1ea9fe;
+}
+.price h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.price li{
+    font-size: 16px;
+    font-weight: 400;
+    color:#56576e;
+    padding: 12px 0;
+}
+.price ul{
+    list-style:none;
+    padding: 15px;
+}
+
+.price {
+    padding: 40px 20px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    transition: .5s;
+}
+.price:hover{
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+        background-color: #F5FBFF;
+    transition: .5s;
+    transform: translateY(-1%);
+}
+.getst a{
+    padding: 20px 70px;
+    border:1px solid #1ea9fe;
+    border-radius: 5px;
+    color:#1ea9fe;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .4s;
+}
+.getst a:hover{
+    color:white;
+    background-color: #1ea9fe;
+    transition: .4s;
+    text-decoration: none;
+}
+
 /*RESPONSIVE*/
 
 
@@ -223,6 +454,11 @@ nav ul li a:hover {
 
     .menubar {
         display: block;
+
+    }
+
+    .menubar i {
+        font-size: 32px;
     }
 
     .image {
@@ -241,28 +477,59 @@ nav ul li a:hover {
 
         margin-top: 10px;
     }
-    .ser h3{
+
+    .vidplay {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .ser h3 {
         font-size: 24px;
     }
-    .ser p{
+
+    .ser p {
         font-size: 14px;
     }
-    .headabout h3{
+
+    .headabout h3 {
         font-size: 26px;
     }
-    .imgmobnone{
+
+    .imgmobnone {
         display: none;
     }
-    .pro{
+
+    .pro {
         padding: 0;
     }
-    .sells p{
+
+    .sells p {
         padding: 12px;
     }
-    .sells h3{
+
+    .sells h3 {
         font-size: 16px;
     }
+
+    .ft {
+        transform: translateY(0) !important;
+    }
+
+    .mot {
+        margin-top: 20px;
+    }
+
+    .screen {
+        margin-top: 20px;
+    }
+    .price{
+        margin-top: 20px;
+    }
     
+    
+
 }
 
 /*TABLET*/
@@ -298,29 +565,52 @@ nav ul li a:hover {
         padding: 10px;
         margin-top: 10px;
         float: left;
-        margin-left: 10px;     
+        margin-left: 10px;
     }
-    .button img{
-     width: 20px;
+
+    .button img {
+        width: 20px;
     }
-    .button h5{
+
+    .button h5 {
         font-size: 18px;
     }
-    .ser h3{
+
+    .ser h3 {
         font-size: 24px;
     }
-    .ser p{
+
+    .ser p {
         font-size: 14px;
     }
-    .pro{
-    padding:30px 0;
-}
-    .sells p{
-        padding: 20px;
-        
+
+    .pro {
+        padding: 30px 0;
     }
-    .sells h3{
+
+    .sells p {
+        padding: 20px;
+
+    }
+
+    .sells h3 {
         font-size: 22px;
     }
 
+    .ft {
+        transform: translateY(0) !important;
+    }
+
+    .mot {
+        margin-top: 20px;
+    }
+    .price ul{
+        padding:0;
+    }
+    .price{
+        padding: 20px 0;
+    }
+    .getst a{
+            padding: 15px 40px;
+    }
 }
