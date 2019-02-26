@@ -754,7 +754,7 @@ input[type="submit"]:hover{
     cursor:pointer;
 }
 /*MOBILE*/
-@media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .nav-box{
         display: none;
     }
@@ -959,7 +959,7 @@ input[type="submit"]{
 }
 
 /*TABLET*/
-@media only screen and (min-device-width : 480px) and (max-device-width : 1023px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
     nav ul li {
         padding: 15px;
